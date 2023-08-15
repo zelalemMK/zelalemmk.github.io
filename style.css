@@ -1,3 +1,9 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
