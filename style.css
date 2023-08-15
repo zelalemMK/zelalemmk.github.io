@@ -1,9 +1,15 @@
 * {
+    /* border: 1px solid black; */
     font-family: 'Courier New', Courier, monospace;
 }
 
 .main {
+    /* width: 75%; */
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
+
