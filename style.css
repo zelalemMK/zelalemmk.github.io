@@ -5,6 +5,7 @@
 
 html {
     /* border: 1px solid black; */
+    margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--background);
     color: var(--content-color);
@@ -51,6 +52,9 @@ p, li {
  }
 
  @media screen and (max-width: 600px) {
+    .main {
+        width: 95%;
+    }
     .projects {
         flex-direction: column;
     }
