@@ -49,3 +49,10 @@ p, li {
  .project-container>* {
     margin-left: 4px;
  }
+
+ @media screen and (max-width: 600px) {
+    .projects {
+        flex-direction: column;
+    }
+ }
+    
